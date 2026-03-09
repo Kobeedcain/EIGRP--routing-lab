@@ -28,3 +28,5 @@ How EIGRP establishes neighbor adjacency between routers
 How routes are exchanged using the EIGRP routing protocols 
 How to verify routing using commands like show ip route and show ip eigrp neighbors.
 How dynamic routing updates tables automatically
+## Topology 
+<img width="631" height="334" alt="image" src="https://github.com/user-attachments/assets/eb6dc967-4d5d-45b9-b605-6639df8505a9" />
