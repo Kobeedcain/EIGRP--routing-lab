@@ -13,7 +13,7 @@ Cisco EIGRP routing lab demonstrating neighbor adjacency, route propagation, and
 ### Basic Router Setup
 hostname R1
 interface g0/0
-ip address 10.1.1.1 255.255.255.255.0
+ip address 10.1.1.1 255.255.255.0
 no shutdown 
 ### EIGRP Configuration 
 router eigrp 100
