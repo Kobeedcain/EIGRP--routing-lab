@@ -4,25 +4,40 @@
 Cisco EIGRP routing lab demonstrating neighbor adjacency, route propagation, and verification commands using Packet Tracer.
 
 ## Lab Objectives 
--Configure router hostnames 
--Configure interface IP addresses 
--Configure EIGRP routing 
--Verify neighbor adjacency 
--Verify routing tables 
+```-Configure router hostnames```
+
+```-Configure interface IP addresses```
+
+```-Configure EIGRP routing``` 
+
+```-Verify neighbor adjacency```
+
+```-Verify routing tables```
+
 ## Key Commands Used 
 ### Basic Router Setup
-hostname R1
-interface g0/0
-ip address 10.1.1.1 255.255.255.0
-no shutdown 
+```hostname R1```
+
+```interface g0/0```
+
+```ip address 10.1.1.1 255.255.255.0```
+
+```no shutdown``` 
+
 ### EIGRP Configuration 
-router eigrp 100
-network 10.1.1.0
-no auto-summary
+```router eigrp 100```
+
+```network 10.1.1.0```
+
+```no auto-summary```
+
 ### Verification
-show ip eigrp neighbors 
-show ip route 
-show ip protocols 
+```show ip eigrp neighbors```
+
+```show ip route``` 
+
+```show ip protocols```
+
 ## What I Learned 
 How EIGRP establishes neighbor adjacency between routers 
 How routes are exchanged using the EIGRP routing protocols 
